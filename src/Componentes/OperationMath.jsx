@@ -6,7 +6,7 @@ const OperacionMath =({OperacionClick , OperacionIgual}) =>(
         <section className="OperacionMath">
             <Boton text="+" clickeo={OperacionClick}/>
             <Boton text="-" clickeo={OperacionClick}/>
-            <Boton text="x" clickeo={OperacionClick}/>
+            <Boton text="*" clickeo={OperacionClick}/>
             <Boton text="/" clickeo={OperacionClick}/>
             <Boton text="=" clickeo={OperacionIgual}/>
         </section>

@@ -28,6 +28,7 @@ return (
         <OperacionMath OperacionClick={operacion =>{
           setSinvalor(`${sinvalor}${operacion}`)}} 
          OperacionIgual = {igual =>{
+           console.log("Igual",igual)
          setSinvalor(eval(sinvalor).toString())}}/> 
          </main>) /*Usamos la Funcion Eval*/
 }
